@@ -1,0 +1,16 @@
+---
+- hosts: metrics_source
+  tasks:
+    - name: "test"
+      debug:
+        msg: "OK"
+- hosts: metrics_store
+  tasks:
+    - name: "test"
+      debug:
+        msg: "OK"
+- hosts: metrics_graph
+  tasks:
+    - name: "test"
+      debug:
+        msg: "OK"
